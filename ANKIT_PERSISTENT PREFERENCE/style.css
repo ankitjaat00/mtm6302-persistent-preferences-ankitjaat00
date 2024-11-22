@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  .preferences-panel {
+    margin-bottom: 20px;
+  }
+  
+  .preferences-panel select {
+    margin-left: 10px;
+    padding: 5px;
+  }
+  
+  .list-section {
+    margin-top: 20px;
+  }
+  
+  #dynamic-list {
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #dynamic-list.none {
+    list-style-type: none;
+  }
+  
+  #dynamic-list.bullets {
+    list-style-type: disc;
+  }
+  
+  #dynamic-list.numbers {
+    list-style-type: decimal;
+  }
+  
+  body.blue {
+    background-color: #878fee;
+    color: #ffffff;
+  }
+  
+  body.blue.preferences-panel {
+    background-color: #878fee;
+  }
+  
+  body.blue .list-section {
+    background-color: #878fee;
+  }
+  
+  body.green {
+    background-color: #4cec77;
+    color: #ffffff;
+  }
+  
+  body.green .preferences-panel {
+    background-color: #4cec77;
+  }
+  
+  body.green.list-section {
+    background-color: #4cec77;
+  }
+  
+  body.red {
+    background-color: #f02626;
+    color: #ffffff;
+  }
+  
+  body.red .preferences-panel {
+    background-color: #f02626;
+  }
+  
+  body.red .list-section {
+    background-color: #f02626;
+  }
